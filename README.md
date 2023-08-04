@@ -1,5 +1,5 @@
 # Note
-Remove some annoyinh type `ParamsDictionary` and `Query`
+Remove some annoying type `ParamsDictionary` and `Query`
 
 # Installation
 > `npm install --save @types/express-serve-static-core`
