@@ -1,8 +1,8 @@
 {
-    "name": "@types/express-serve-static-core",
-    "version": "4.17.35",
+    "name": "@types/express",
+    "version": "4.17.13",
     "description": "TypeScript definitions for Express",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/express-serve-static-core",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/express",
     "license": "MIT",
     "contributors": [
         {
@@ -11,43 +11,40 @@
             "githubUsername": "borisyankov"
         },
         {
-            "name": "Satana Charuwichitratana",
-            "url": "https://github.com/micksatana",
-            "githubUsername": "micksatana"
+            "name": "China Medical University Hospital",
+            "url": "https://github.com/CMUH",
+            "githubUsername": "CMUH"
         },
         {
-            "name": "Sami Jaber",
-            "url": "https://github.com/samijaber",
-            "githubUsername": "samijaber"
+            "name": "Puneet Arora",
+            "url": "https://github.com/puneetar",
+            "githubUsername": "puneetar"
         },
         {
-            "name": "Jose Luis Leon",
-            "url": "https://github.com/JoseLion",
-            "githubUsername": "JoseLion"
-        },
-        {
-            "name": "David Stephens",
-            "url": "https://github.com/dwrss",
-            "githubUsername": "dwrss"
-        },
-        {
-            "name": "Shin Ando",
-            "url": "https://github.com/andoshin11",
-            "githubUsername": "andoshin11"
+            "name": "Dylan Frankland",
+            "url": "https://github.com/dfrankland",
+            "githubUsername": "dfrankland"
         }
     ],
     "main": "",
     "types": "index.d.ts",
+    "typesVersions": {
+        "<=4.0": {
+            "*": [
+                "ts4.0/*"
+            ]
+        }
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
-        "directory": "types/express-serve-static-core"
+        "directory": "types/express"
     },
     "scripts": {},
     "dependencies": {
-        "@types/node": "*",
+        "@types/body-parser": "*",
+        "@types/express-serve-static-core": "^4.17.18",
         "@types/qs": "*",
-        "@types/range-parser": "*",
-        "@types/send": "*"
+        "@types/serve-static": "*"
     }
 }
