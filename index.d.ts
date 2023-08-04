@@ -95,10 +95,10 @@ declare namespace e {
     interface CookieOptions extends core.CookieOptions {}
     interface Errback extends core.Errback {}
     interface ErrorRequestHandler<
-        P = core.ParamsDictionary,
+        P = any,
         ResBody = any,
         ReqBody = any,
-        ReqQuery = core.Query,
+        ReqQuery = any,
         Locals extends Record<string, any> = Record<string, any>
     > extends core.ErrorRequestHandler<P, ResBody, ReqBody, ReqQuery, Locals> {}
     interface Express extends core.Express {}
@@ -110,17 +110,17 @@ declare namespace e {
     interface MediaType extends core.MediaType {}
     interface NextFunction extends core.NextFunction {}
     interface Request<
-        P = core.ParamsDictionary,
+        P = any,
         ResBody = any,
         ReqBody = any,
-        ReqQuery = core.Query,
+        ReqQuery = any,
         Locals extends Record<string, any> = Record<string, any>
     > extends core.Request<P, ResBody, ReqBody, ReqQuery, Locals> {}
     interface RequestHandler<
-        P = core.ParamsDictionary,
+        P = any,
         ResBody = any,
         ReqBody = any,
-        ReqQuery = core.Query,
+        ReqQuery = any,
         Locals extends Record<string, any> = Record<string, any>
     > extends core.RequestHandler<P, ResBody, ReqBody, ReqQuery, Locals> {}
     interface RequestParamHandler extends core.RequestParamHandler {}
